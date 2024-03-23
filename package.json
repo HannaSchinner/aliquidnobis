@@ -1,0 +1,47 @@
+{
+  "name": "aliquidnobis",
+  "version": "1.11.1",
+  "description": "PostCSS syntax for parsing styled components",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HannaSchinner/aliquidnobis.git"
+  },
+  "keywords": [
+    "in",
+    "syntax",
+    "styled-components",
+    "at",
+    "css-in-js",
+    "quia"
+  ],
+  "author": "AmieKunde",
+  "license": "MIT",
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ],
+    "all": true,
+    "cache": true,
+    "check-coverage": true
+  },
+  "peerDependencies": {
+    "postcss": ">=5.0.0",
+    "postcss-syntax": ">=0.28.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "codecov": "^3.0.2",
+    "mocha": "^5.2.0",
+    "nyc": "^12.0.2",
+    "postcss": "^6.0.22",
+    "postcss-safe-parser": "^3.0.1",
+    "postcss-syntax": ">=0.28.0"
+  },
+  "dependencies": {
+    "autperspiciatis": "^1.0.0",
+    "enimodio": "^1.1.0",
+    "insimilique": "^1.0.0",
+    "quideleniti": "^1.0.0"
+  }
+}
